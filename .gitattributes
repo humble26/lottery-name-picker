@@ -1,0 +1,21 @@
+# 统一换行符处理
+* text=auto
+
+# Shell 脚本必须保持 LF，否则在麒麟 / WSL 上会报
+#   bash: $'\r': command not found
+*.sh text eol=lf
+
+# Python 源码统一 LF
+*.py text eol=lf
+*.spec text eol=lf
+
+# Windows 批处理与 PowerShell 保持 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# 图片等二进制文件不做换行转换
+*.png binary
+*.jpg binary
+*.ico binary
+*.exe binary

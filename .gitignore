@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 打包产物：exe 与 PyInstaller 中间目录（用「打包」一节的方法自行生成）
+build/
+dist/
+*.exe
+_internal/
+
+# ⚠ 真实名单与抽签记录：含本班同学姓名与历年抽签结果，绝不入库
+num.txt
+result.txt
+result_linux.txt
+
+# ⚠ 第三方原版残留：2006–2007 年「倾诚软件 抽奖抽签程序 1.1」的 VB6 文件，
+#    版权归原作者，不随本仓库分发。详见 README「与上游的关系」。
+原版文件/
+COMDLG32.OCX
+Settings.exe
+award.ini
+back0.JPG
+back1.JPG
+back2.JPG
+back3.JPG
+说明_Readme.html
+程序报错的处理.txt
+最终用户许可协议.txt
+增强版-traework-20260917/Readme.txt
